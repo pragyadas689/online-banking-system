@@ -14,7 +14,7 @@ public class DatabaseConnection {
         }
         String url = "jdbc:mysql://localhost:3306/bankingsystem";
         try{
-            conn = DriverManager.getConnection(url,"root","Pragu@123");
+            conn = DriverManager.getConnection(url,"root","XYZ");
         }
         catch (Exception e){
             System.out.println("Exception occur in Database");
